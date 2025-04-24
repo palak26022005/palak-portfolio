@@ -1,0 +1,123 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(to bottom right, lightpink, lightblue, white);
+
+    color: #333;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header {
+
+    background-color: lightgray;
+
+    text-align: center;
+
+    padding: 20px;
+
+    border-bottom: 2px solid grey;
+
+}
+
+header h1 {
+
+    font-size: 36px;
+
+    transition: transform 0.3s ease;
+
+    color: darkslategray;
+
+}
+
+header h1:hover {
+
+    transform: scale(1.1);
+
+    color: mediumvioletred;
+
+}
+
+header p {
+
+    font-style: italic;
+
+    color: darkblue;
+
+}
+
+.profile-pic {
+
+    display: block;
+
+    margin: 20px auto;
+
+    width: 150px;
+
+    border-radius: 50%;
+
+    border: 3px solid lightgray;
+
+    transition: transform 0.3s ease;
+
+}
+
+.profile-pic:hover {
+
+    transform: rotate(3deg) scale(1.05);
+
+}
+
+section {
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 10px lightgray;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+section:hover {
+
+    transform: scale(1.01);
+
+    box-shadow: 0 0 15px grey;
+
+}
+
+h2 {
+
+    color: darkmagenta;
+
+    border-bottom: 1px solid lightpink;
+
+    padding-bottom: 5px;
+
+}
+
+ul {
+
+    list-style: circle;
+
+    padding-left: 20px;
+
+}
+
+p, li {
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+}
