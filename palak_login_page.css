@@ -1,0 +1,85 @@
+*{
+    
+    margin: 0%;
+    padding: 0%
+}
+body{
+    background-size: 100% 740px;
+    background-image:url("flower image.jpg")
+    
+} 
+.contain h1{
+    font-size:36px;
+    font-style:italic;
+    color:aqua;
+}
+.contain{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: black;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin- right:10%; 
+    color: white;
+
+}
+.contain .text{
+    position:relative;
+    top: 7%;
+
+}
+.inp1 {
+    border: none;
+    border-bottom:3px solid white;
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    FONT-SIZE: 22PX;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    outline: none;
+    color: white;
+    font-style:italic;
+    cursor:pointer;
+}
+
+.inp2 {
+    border:none;
+    border-bottom:3px solid white;
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    FONT-SIZE: 22PX;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    outline: none;
+    color:white;
+    font-style:italic;
+    cursor:pointer;
+}
+p{
+    margin-top:6%;
+    font-size:20px;
+    font-style:italic;
+}
+p span{
+    color:aqua;
+}
+.text button{
+    width: 200px;
+    height:40px;
+    background-color: aqua;
+    font-size:30px;
+    margin-top:7%;
+    border-radius:25px;
+    cursor:pointer;
+}
+button:hover{
+    border: 3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
